@@ -108,3 +108,22 @@ h1{
 .news::placeholder{
   color: white;
 }
+.news p{
+  margin: 0;
+}
+.fab{
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+
+}
+@media screen and (max-width:768px){
+	img{
+		width: 200px;
+	}
+}
+@media screen and (max-width:576px){
+	img{
+		width: 100px;
+	}
+}
